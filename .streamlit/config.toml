@@ -1,0 +1,23 @@
+[server]
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#4F46E5"
+font = "Noto Sans KR:https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, sans-serif"
+baseRadius = "0.6rem"
+showSidebarBorder = true
+
+# 사용자의 시스템 설정(또는 앱 메뉴 Settings)에 따라 라이트/다크가 자동 적용된다.
+[theme.light]
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F4F5FB"
+textColor = "#1E2235"
+
+[theme.dark]
+primaryColor = "#8B93F8"
+backgroundColor = "#11131C"
+secondaryBackgroundColor = "#1C1F2E"
+textColor = "#E6E8F0"
